@@ -30,26 +30,10 @@ new Vue({
       let hh = today.getHours();
       let min = today.getMinutes();
 
-      if (dd < 10) {
-        dd = `0${dd}`;
-      }
-
-      if (mm < 10) {
-        mm = `0${mm}`;
-      }
-
-      if (hh < 10) {
-        hh = `0${hh}`;
-      }
-
-      if (min < 10) {
-        min = `0${min}`;
-      }
-
-      // dd < 10 ? `0${dd}` : dd;
-      // mm < 10 ? `0${mm}` : mm;
-      // hh < 10 ? `0${hh}` : hh;
-      // min < 10 ? `0${min}` : min;
+      dd = dd < 10 ? `0${dd}` : `${dd}`;
+      mm = mm < 10 ? `0${mm}` : `${mm}`;
+      hh = hh < 10 ? `0${hh}` : `${hh}`;
+      min = min < 10 ? `0${min}` : `${min}`;
 
       dateTime = {
         day: weekDay[today.getDay()],
@@ -61,7 +45,7 @@ new Vue({
   },
   methods: {
     filterTodo(todo, value) {
-      return todo.filter((todos) => {
+      return todo.filter(todos => {
         return todos.toLowerCase().indexOf(value) > -1;
       });
     },
