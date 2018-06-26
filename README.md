@@ -17,5 +17,5 @@ The UI is inspired by Brad Traversy's Youtube [DOM crash course playlist](https:
  - [x] Can clear all todos
 
 
-**Hope you enjoy it!**
+**Hope you like it!**
 
