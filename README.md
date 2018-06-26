@@ -10,7 +10,7 @@ The UI is inspired by Brad Traversy's Youtube [DOM crash course playlist](https:
 * HTML5
 * BootStrap
 
-####User Stories:
+#### User Stories:
  - [x] Can add a todo
  - [x] Can delete a todo
  - [x] Can search for a particular todo
