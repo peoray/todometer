@@ -7,3 +7,13 @@ body {
 .pointer {
   cursor: pointer;
 }
+
+footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40vh;
+
+}
