@@ -2,7 +2,7 @@
 
 ![photo](https://res.cloudinary.com/peoray/image/upload/v1530023859/vue-todo_add7a0.gif)
 
-Another Todo App! - [See App Live](https://peoray.github.io/Todometer/)
+Another Todo App! - [See App Live](https://peoray.github.io/todometer/)
 
 
 The UI is inspired by Brad Traversy's Youtube [DOM crash course playlist](https://www.youtube.com/watch?v=i37KVt_IcXw) final project
